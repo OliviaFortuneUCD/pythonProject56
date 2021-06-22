@@ -1,4 +1,4 @@
-Customer_Number, Customer_name,Order_number,qty, price, cost
+Customer_Number,Customer_name,Order_number,qty, price, cost
 1,Dunnes Stores,1,100,10.99,11.00
 2,Tescos,2,150,12.99,12.00
 3,Centra,3,300,16.99,14.00

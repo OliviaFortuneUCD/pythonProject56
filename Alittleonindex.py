@@ -25,3 +25,12 @@ print(df.iloc[-1]) # last row of data frame
 print(df.iloc[:,0]) # first column of data frame (first_name)
 
 print(df.iloc[0:5]) # first five rows of dataframe
+
+#Why do we set the index. To make it quicker
+df.set_index("Customer_name", inplace=True)
+
+#search for tescos
+print(df.loc['Tescos'])
+
+#search for tescos
+print("I was searching for Tescos....." , df.loc['Tescos'])
