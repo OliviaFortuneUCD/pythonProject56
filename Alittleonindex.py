@@ -34,3 +34,6 @@ print(df.loc['Tescos'])
 
 #search for tescos
 print("I was searching for Tescos....." , df.loc['Tescos'])
+
+
+print(df.loc[df['email'].str.endswith("@aldi.com")])
