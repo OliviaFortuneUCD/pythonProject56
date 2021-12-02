@@ -12,4 +12,3 @@ sea = sns.FacetGrid(exercise, col="time",
 sea.map(sns.barplot, "diet", "pulse",
         order=["no fat", "low fat"])
 
- 
