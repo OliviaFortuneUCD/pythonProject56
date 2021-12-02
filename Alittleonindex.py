@@ -9,7 +9,7 @@ import seaborn as sns
 
 df = pd.read_csv("Stores.csv", index_col="Customer_Number")
 #print the header
-#print(df.head)
+print(df.head)
 
 #reterieve by row
 #print(df.iloc[[0]])
@@ -38,7 +38,7 @@ df.set_index("Customer_name", inplace=True)
 
 
 #print(df.loc[df['email'].str.endswith("@aldi.com")])
-x=df['cost']
-y=df['price']
+#x=df['cost']
+#y=df['price']
 #sns.lineplot(data=df, x=x, y=y)
 

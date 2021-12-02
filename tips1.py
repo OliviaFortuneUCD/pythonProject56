@@ -1,6 +1,7 @@
 import seaborn as sns
 tips = sns.load_dataset('tips')
 
+
 #sns.scatterplot(x="total_bill", y="tip", data=tips)
 
 #sns.lineplot(x="size", y="tip",data=tips)
