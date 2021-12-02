@@ -5,8 +5,8 @@ from matplotlib import pyplot as plt
 
 Ourdf = pd.read_csv('GBvideos.csv')
 
-x=Ourdf['channel_title'].head(5)
-y=Ourdf['likes'].head(5)
-y1=Ourdf['views'].head(5)
+x=Ourdf['channel_title'].head(7)
+y=Ourdf['likes'].head(7)
+y1=Ourdf['views'].head(7)
 plt.plot(x,y)
 plt.plot(x,y1)

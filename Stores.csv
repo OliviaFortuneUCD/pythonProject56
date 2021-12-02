@@ -1,6 +1,8 @@
-Customer_Number,Customer_name,Order_number,qty,price,cost,email
-1,Dunnes Stores,1,100,10.99,11.00, John@dunnes.com
-2,Tescos,2,150,12.99,12.00, Terry@tescos.com
-3,Centra,3,300,16.99,14.00, Cherry@centra.com
-4,Lidl,100,11.99,20.99,2.00,mark@lidl.com
-5,Aldi,400,14,16.99,1.00,stella@aldi.com
+Customer_Number,Customer_name,Order_number ,price,cost,email
+1,Dunnes Stores,1 ,44.99,9.99, John@dunnes.com
+2,Tescos,1 ,17.99,8.99, Stella@Tescos.com
+3,Supervalu,1 ,21.99,4.99, Peter@Supervalu.com
+4,Aldi,1 ,19.99,14.98, Rachel@aldi.com
+5,Lidl,1 ,24.99,10.99, Ross@lidl.com
+6,Iceland,1 ,17.99,19.99, Monica@Iceland.com
+

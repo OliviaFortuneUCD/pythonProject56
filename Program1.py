@@ -6,3 +6,4 @@ from matplotlib import pyplot as plt
 Ourdf = pd.read_csv('GBvideos.csv')
 
 print(Ourdf.head)
+

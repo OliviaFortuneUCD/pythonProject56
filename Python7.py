@@ -12,7 +12,7 @@ def best_videos(list, title):
     plt.yticks(rotation=60, fontsize=5)
     plt.xticks(rotation=90, fontsize=5)
     plt.title(title, fontsize=5)
-    plt.legend(handlelength=5, fontsize  = 5)
+    plt.legend(handlelength=5, fontsize=5)
     plt.show()
 
 list = Ourdf[["title","views"]].sort_values(by="views",ascending=True).drop_duplicates("title",keep="last")
